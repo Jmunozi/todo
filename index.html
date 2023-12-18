@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<div id="todoList">
+    <h2>Tu lista de tareas</h2>
+    <br>
+    <input type="text" id="taskInput" placeholder="¿Qué harás hoy?">
+    <button class="add" onclick="addTask()">Agregar</button>
+    <ul id="tasks" style="margin-top: 2rem;"></ul>
+    <hr>
+    <br>
+    <p>Total de tareas: <span id="totalTasks">0</span></p>
+    <p>Tareas realizadas: <span id="completedTasks">0</span></p>
+</div>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>

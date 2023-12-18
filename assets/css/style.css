@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#todoList {
+    max-width: 800px;
+    margin: 20px auto;
+}
+input[type="text"] {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 30em;
+    border-radius: 1rem;
+    color: rgb(48, 48, 48);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+
+.input input:focus {
+    outline-color: lightcoral;
+    }
+
+.add {
+    color: white;
+    max-height: 2rem;
+    background: #328479;
+    border: 1px solid #2d756c;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+
+.add:hover,
+.add:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #286860;
+}
+
+.add:active {
+    opacity: .5;
+}
+
+
+.task {
+    margin: 5px 0;
+    margin-top: 1rem;
+}
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.delete{
+    color: white;
+    max-height: 2rem;
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.delete:hover,
+.delete:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.delete:active {
+    opacity: .5;
+}
+
+
+.done{
+    color: white;
+    max-height: 2rem;
+    background: #3ad049;
+    border: 1px solid #3ad049;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.done:hover,
+.done:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #33b741;
+}
+
+.done:active {
+    opacity: .5;
+}
